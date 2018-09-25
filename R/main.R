@@ -108,7 +108,7 @@ get_default_input<-function(scenario="")
 {
   out<-list(mean_age=40, p_female=0.5)
   
-  retutn(out)
+  return(out)
 }
 
 #export
