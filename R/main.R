@@ -116,5 +116,5 @@ get_default_setting<-function(scenario="")
 {
   out<-list(time_horizon=10,n_sim=100)
   
-  retutn(out)
+  return(out)
 }
