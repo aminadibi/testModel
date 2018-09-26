@@ -1,6 +1,4 @@
 
-
-
 get_version<-function()
 {
   return("1.2")
