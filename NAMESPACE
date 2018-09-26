@@ -3,3 +3,4 @@
 export(get_default_input)
 export(get_default_setting)
 export(model_run)
+import(jsonlite)
