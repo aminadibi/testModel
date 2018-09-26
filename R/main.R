@@ -7,7 +7,7 @@ get_version<-function()
 
 
 
-#export
+#' @export
 model_run<-function(setting,input)
 {
   n_sim<-setting$n_sim
@@ -29,7 +29,7 @@ model_run<-function(setting,input)
 
 
 
-#export
+#' @export
 get_default_input<-function(scenario="")
 {
   out<-list(
@@ -41,7 +41,7 @@ get_default_input<-function(scenario="")
   return(out)
 }
 
-#export
+#' @export
 get_default_setting<-function(scenario="")
 {
   out<-list(
