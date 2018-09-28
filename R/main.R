@@ -20,7 +20,7 @@ model_run<-function(setting,input)
     for(j in 1:time_horizon)
     {
       x<-x+input$mean_age*input$p_female
-      temp<-rnorm(n_sim*time_horizon,0,1)
+      temp<-rnorm(1,0,1)
     }
   }
   
